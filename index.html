@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      
+      <title>
+        home
+      </title>
+        <style>
+       @keyframes color {
+  0%   { background:lightblue; }
+  20%  { background: greenyellow; }
+  40%  { background: palevioletred; }
+  60%  { background: yellow; }
+  80%  { background: skyblue; }
+  100% { background:lightblue; }
+}
+h1{
+  background-color: rgb(101, 101, 232);
+  color: white;
+}
+body {
+  background:lightblue; /* Fallback */
+  animation: color 10s infinite linear;
+  text-align: center;
+  padding: 2em;
+}
+        </style>
+        <script>
+          function fun()
+          {
+            alert(" are you sure you want to enter ?");
+          }
+          function fun1()
+          {
+            alert(" are you sure you want to buy ?");
+          }
+          function fun2()
+          {
+            alert(" are you sure you want to sell ?");
+          }
+          function fun3()
+          {
+            alert(" are you sure you want to trade?");
+          }
+          </script>
+    </head>
+</html>
+<body>
+    <h1><i>Playing cards collection site</i></h1>
+    <p>here you can buy sell and trade your favourite cards</p>
+    <div class="drop">
+    <button onclick="fun()"><a href="DISCLAIMER.html"><i>DISCLAIMER</i></a></button><br><hr>
+    <button onclick="fun1()"><a href="BUY.html"><i>BUY</i></a></button><br><hr>
+    <button onclick="fun2()"><a href="SELL.html"><i>SELL</i></a></button><br><hr>
+    <button onclick="fun3()"><a href="TRADE.html"><i>TRADE</i></a></button><hr>
+    </div>
+</body>
